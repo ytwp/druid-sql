@@ -15,8 +15,10 @@ druid-sql 是基于 druid 数据源分离出来的sql解析器
 </dependency>
 ```
 ```java
-//sql 解析
+//单 sql 解析
 SQLStatement sqlStatement = SQLUtils.parseSingleStatement(sql, DbType.hive);
+//多 sql 解析
+List<SQLStatement> sqlStatements = SQLUtils.parseStatements(sql, DbType.hive);
 //sql 格式化
 String format = SQLUtils.format(sql, DbType.hive);
 ```
