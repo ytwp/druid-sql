@@ -119,8 +119,6 @@ public class SQLServerStatementParser extends SQLStatementParser {
 
     /**
      * SQLServer parse Parameter statement support out type
-     *
-     * @author zz [455910092@qq.com]
      */
     public void parseExecParameter(Collection<SQLServerParameter> exprCol, SQLObject parent) {
         if (lexer.token() == Token.RPAREN || lexer.token() == Token.RBRACKET) {

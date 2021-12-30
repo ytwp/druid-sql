@@ -8,6 +8,11 @@
     <artifactId>druid-sql</artifactId>
     <version>1.0.0</version>
 
+    <name>druid-sql</name>
+    <packaging>jar</packaging>
+    <url>https://github.com/ytwp/druid-sql</url>
+    <description>sql parser</description>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

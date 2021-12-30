@@ -9278,9 +9278,6 @@ public class MySqlStatementParser extends SQLStatementParser {
 
     /**
      * 定义异常处理程序
-     *
-     * @author zhujun [455910092@qq.com]
-     * 2016-04-16
      */
     public MySqlDeclareHandlerStatement parseDeclareHandler() {
         //DECLARE handler_type HANDLER FOR condition_value[,...] sp_statement

@@ -5095,11 +5095,14 @@ public class SQLASTOutputVisitor extends SQLASTVisitorAdapter implements Paramet
             }
         }
 
-        wang.yeting.sql.ast.SQLOrderBy sortBy = x.getDistributeBy();
+        wang.yeting.sql.ast.SQLOrderBy sortBy = x.getSortBy();
         if (sortBy != null) {
             List<wang.yeting.sql.ast.statement.SQLSelectOrderByItem> items = sortBy.getItems();
 
             if (items.size() > 0) {
+                if (distributeBy != null) {
+                    print0(" ");
+                }
                 print0(ucase ? "SORT BY " : "sort by ");
 
                 for (int i = 0, size = items.size(); i < size; ++i) {
