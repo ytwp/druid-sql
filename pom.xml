@@ -6,7 +6,7 @@
 
     <groupId>wang.yeting</groupId>
     <artifactId>druid-sql</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>druid-sql</name>
     <packaging>jar</packaging>
