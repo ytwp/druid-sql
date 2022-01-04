@@ -11,7 +11,7 @@ druid-sql 是基于 druid 数据源分离出来的 sql解析器
 <dependency>
     <groupId>wang.yeting</groupId>
     <artifactId>druid-sql</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 ```java
